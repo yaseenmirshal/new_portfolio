@@ -202,24 +202,66 @@
       -->
       <article class="about  active" data-page="about">
 
-        <header>
+        <!-- <header>
           <h2 class="h2 article-title">About me</h2>
-        </header>
+        </header> -->
 
-        <section class="about-text">
-          <p>
-            I’m  front-end developer and UI/UX designer with a passion for creating beautiful, user-friendly digital experiences. I specialize in building responsive, clean, and engaging interfaces using tools like React, Next.js, Tailwind CSS and Figma.
-
-
-          </p>
-
-          <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            I love turning ideas into visually appealing, functional websites that users enjoy. Beyond coding, I’m a problem-solver and a continuous learner, always exploring the latest in design and tech.
-
-            Let’s connect and bring your ideas to life!
-          </p>
+        <style>
+          .hero-section {
+            color: white;
+            min-height: 33vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: center;
+            text-align: left;
+          }
+        
+          .hero-section h1 {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+          }
+        
+          .hero-section p {
+            font-size: 0.8376rem;
+            max-width: 600px;
+            color: #ccc;
+            margin-bottom: 1.5rem;
+          }
+        
+          .button-group {
+            display: flex;
+            gap: 1rem;
+          }
+        
+          .hero-section a {
+            background-color: white;
+            color: black;
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background 0.3s;
+          }
+        
+          .hero-section a:hover {
+            background-color: #ddd;
+          }
+        </style>
+        
+        <section class="hero-section">
+          <h1>Empowering Businesses with Smart Digital Solutions</h1>
+          <p>From websites to graphic design, marketing to NFC cards – I craft modern digital experiences that fuel growth.</p>
+          <div class="button-group">
+            <a href="#pro">Explore My Work</a>
+            <a target="_blank" href="http://wa.me/919947234099">Let's Talk</a>
+          </div>
         </section>
+        
+        
+        
 
 
         <!--
@@ -228,7 +270,7 @@
 
         <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+          <h3 class="h3 service-title">What i do</h3>
 
           <ul class="service-list">
 
@@ -573,13 +615,13 @@
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+      <article   class="portfolio" data-page="portfolio">
 
         <header>
           <h2 class="h2 article-title">Portfolio</h2>
         </header>
 
-        <section class="projects">
+        <section id="pro" class="projects">
 
           <ul class="filter-list">
 
